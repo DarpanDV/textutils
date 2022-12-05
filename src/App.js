@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import NAvbar from './component/NAvbar';
+import Textarea from './component/Textarea';
 
 function App() {
   return (
     <>
     <NAvbar />
-    HEllo
+    <div className="container">
+    <Textarea />
+    </div>
+    
     </>
   );
 }
